@@ -742,6 +742,9 @@ header {
     width: 100%;
     margin-top: 10px;
 }
+#whats {
+    color:darkgreen
+}
 
 .contact-form .inputBox input,
 .contact-form .inputBox textarea {
