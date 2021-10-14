@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- início do preloader -->
+    <div id="preloader">
+        <div class="inner">
+            <img src="imagens/loader.gif">
+        </div>
+    </div>
+    <!-- fim do preloader -->
+
+
+    <div class="container">
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Web Developer & Front-End Designer</h1>
+                <p>Melquisedec Cruz dos Santos</p>
+                <a id="download" href="media/CV-Melqui.pdf" target="blank"><button><i class="fa fa-download"></i> Currículo</button></a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/melquisedec-santos" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MelqSantos" target="blank"><i class="fab fa-github-alt"></i></a>
+                <a href="https://www.facebook.com/melquisanntos" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/melqsantos" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </aside>
+
+
+        <section class="sessao-conhecimento" id="conhecimentos">
+
+            <div class="titulo">
+                <span>Conhecimentos</span>
+            </div>
+
+            <div class="container-conhecimento">
+
+                <div class="box">
+                    <div class="content">
+                        <img src="imagens/1.png" alt="">
+                        <h2>HTML</h2>
+                        <p>Criação de sites usando técnicas em HTML.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="imagens/2.png" alt="">
+                        <h2>Banco de dados</h2>
+                        <p>Criação e integração do banco de dados com as aplicações ou sites.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="imagens/3.png" alt="">
+                        <h2>Git e GitHub</h2>
+                        <p>Versificação de códigos e utilização de repositórios.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="imagens/4.png" alt="">
+                        <h2>CSS</h2>
+                        <p>Estilização e criação de layouts responsivos.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="imagens/6.png" alt="">
+                        <h2>Design</h2>
+                        <p>Desenvolvimento de layouts modernos.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="imagens/5.png" alt="">
+                        <h2>Javascript</h2>
+                        <p>Incremento de funcionalidades para interação com o usuário.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="imagens/7.png" alt="">
+                        <h2>Bootstrap</h2>
+                        <p>Utilização do framework Bootstrap, criando diversos layouts com dinamismo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="titulo">
+                <span>Galeria de Projetos</span>
+            </div>
+        </section>
+
+        <section class="sessao-projetos" id="projetos">
+            <div class="container-projetos">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="feature">
+                            <div class="window">
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                                <div class="ball"></div>
+                            </div>
+
+                            <div class="bar-wrap">
+
+                                <div class="bar">
+                                    <div class="fill" style="width:60%; background-color: #f06529;">HTML</div>
+                                </div>
+
+                                <div class="bar">
+                                    <div class="fill" style="width:70%; background-color: #2965F1">CSS</div>
+                                </div>
+
+                                <div class="bar">
+                                    <div class="fill" style="width:45%; background-color: #f0c419;">JAVASCRIPT</div>
+                                </div>
+
+                                <div class="bar">
+                                    <div class="fill" style="width:25%; background-color: #787CB5;">PHP</div>
+                                </div>
+
+                                <div class="bar">
+                                    <div class="fill" style="width:20%; background-color: #E3242B;">SQL</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col hide-list" id="hide-list">
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/pic2.jpg">
+                                <img src="media/play.png" class="play-btn" onclick="playVideo('media/flor.mp4')">
+                            </div>
+                            <div class="description">
+                                <h3>Site de vendas</h3>
+                                <p>Criação de layout para loja de roupas, utilizando HTML e CSS com SASS.</p>
+                            </div>
+                        </div>
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/pic3.JPG">
+                                <img src="media/play.png" class="play-btn" onclick="playVideo('media/loteria.mp4')">
+                            </div>
+                            <div class="description">
+                                <h3>Validação de jogos</h3>
+                                <p>Criação de página para conferência de jogos da lotofácil, utilizando Javascript com HTML e CSS.</p>
+                            </div>
+                        </div>
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/pic4.jpg">
+                                <img src="media/play.png" class="play-btn" onclick="playVideo('media/Interface.mp4')">
+                            </div>
+                            <div class="description">
+                                <h3>Serviços clínica estética</h3>
+                                <p>Criação de layout com animações utilizando o framework Jquery.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="show-list">
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/pic5.jpg">
+                                <img src="media/play.png" class="play-btn" onclick="playVideo('media/calculadora.mp4')">
+                            </div>
+                            <div class="description">
+                                <h3>Calculadora simples</h3>
+                                <p>Criação de calculadora utilizando HTML/CSS, Bootstrap e Javascript.</p>
+                            </div>
+                        </div>
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/pic6.jpg">
+                                <img src="media/play.png" class="play-btn" onclick="playVideo('media/Startup.mp4')">
+                            </div>
+                            <div class="description">
+                                <h3>TCM (2° semestre do curso)</h3>
+                                <p>Criação de um Website em HTML / PHP para uma Startup.</p>
+                            </div>
+                        </div>
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/pic7.jpg">
+                                <img src="media/play.png" class="play-btn" onclick="playVideo('media/Login.mp4')">
+                            </div>
+                            <div class="description">
+                                <h3>TCC (3° semestre do curso)</h3>
+                                <p>Criação de uma aplicação em ASP.NET MVC para uma clínica de estética.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paginação -->
+                <div class="pagination">
+                    <a onclick="mais()" href="javascript:void(0)">❮</a>
+                    <a onclick="mais()" href="javascript:void(0)">❯</a>
+                </div>
+                <!-- Fim da paginação -->
+
+            </div>
+        </section>
+
+        <div class="video-player" id="VideoPlayer">
+            <video width="100%" controls autoplay id="myVideo">
+                    <source src="media/servicos.mp4" type="video/mp4">
+                </video>
+            <img src="media/close.png" class="close-btn" onclick="stopVideo()">
+        </div>
+
+        </section>
+
+        <section class="contact" id="contato">
+            <div class="content">
+                <h2>Contato</h2>
+                <p>Entre em contato comigo pelo Whatsapp, e-mail ou redes sociais. Se preferir, mande uma mensagem preenchendo os campos abaixo. </p>
+            </div>
+            <div class="container-contato">
+                <div class="contact-info">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Endereço</h3>
+                            <p>R. Engenheiro Vitor Freire, <br> Jaguaré, São Paulo / SP, <br>CEP: 05334-020</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Telefone</h3>
+                            <p>(11) 98794-0323</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>melqsantos96@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://api.staticforms.xyz/submit" method="POST">
+                        <input type="hidden" name="accessKey" value="1f08c7b9-b051-43f3-b3a7-3821fa3b55b4">
+                        <input type="hidden" name="redirectTo" value="https://melqui.vercel.app">
+                        <h2>Envie uma mensagem</h2>
+                        <div class="inputBox">
+                            <input type="text" name="name" required="required">
+                            <span>Nome Completo</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="email" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required" name="message"></textarea>
+                            <span>Mensagem</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+
+        <footer class="rodape">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/melquisedec-santos" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MelqSantos" target="blank"><i class="fab fa-github-alt"></i></a>
+                <a href="https://www.facebook.com/melquisanntos" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/melqsantos" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">
+                Copyright &copy; Melqui Santos 2021. Todos os direitos reservados.
+            </p>
+        </footer>
+
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+    </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
